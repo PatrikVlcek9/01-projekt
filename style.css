@@ -1,17 +1,29 @@
-body {background: rgb(225,145,232);
-    background: linear-gradient(45deg, rgba(225,145,232,1) 35%, rgba(146,113,244,1) 100%);
-background-repeat: no-repeat;
-min-height: 100vh; }
-
-.font-7{
-    font-size: 5rem !important;
+body {
+    background: rgb(225, 145, 232);
+    position: relative;
+    min-height: 140vh;
+    width: 100vw;
 }
 
-.font-5{
-    font-size: 2.5rem !important;
+#bg {
+    height: 100%;
+    width: 100vw;
+    position: fixed !important;
 }
 
-.icon {
-    width: 56px !important;
-    aspect-ratio: 1;
+
+
+@media only screen and (max-width: 991px) {
+    .navbar-collapse {
+        border-radius: 0 !important;
+    }
+
+    .karta {
+        position:relative !important ;
+        left: 0 !important;
+    }
+
+    .navbar-brand {
+        margin-right: 27% !important;
+    }
 }
