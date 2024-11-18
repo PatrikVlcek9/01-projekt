@@ -10,3 +10,8 @@ min-height: 100vh; }
 .font-5{
     font-size: 2.5rem !important;
 }
+
+.icon {
+    width: 56px !important;
+    aspect-ratio: 1;
+}
