@@ -3,3 +3,10 @@ body {background: rgb(225,145,232);
 background-repeat: no-repeat;
 min-height: 100vh; }
 
+.font-7{
+    font-size: 5rem !important;
+}
+
+.font-5{
+    font-size: 2.5rem !important;
+}
