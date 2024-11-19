@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Linkin Park Album</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
 <body>
 
-  <img id="bg" src="./img/bg.png">
+  <img id="bg" src="./img/bg.png" style="z-index: -1;">
 
 
   <nav class="navbar p-0 m-0 navbar-expand-lg navbar-dark bg-transparent d-flex justify-content-between">
@@ -37,7 +39,7 @@
           <a class="nav-link active fs-5 text-center" aria-current="page" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link fs-5 text-center" href="#">FEATURES</a>
+          <a class="nav-link fs-5 text-center" href="./diskografie.html">DISKOGRAFIE</a>
         </li>
         <li class="nav-item">
           <a class="nav-link fs-5 text-center" href="#">PRICING</a>
@@ -46,8 +48,7 @@
     </div>
   </nav>
 
-
-  <div class="container h-100 d-flex align-items-center min-vh-100 justify-content-center" style=";">
+  <div class="container h-100 d-flex align-items-center min-vh-100 justify-content-center" data-aos="zoom-in">
     <div class="karta text-center text-light p-4 position-absolute rounded "
       style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border-radius: 8px; left:80; max-width: 400px;">
       <div>
@@ -64,55 +65,122 @@
     </div>
   </div>
 
-  <div class="container h-100 d-flex align-items-center min-vh-100 flex-column">
+  <div class="container obrazky h-100 d-flex align-items-center min-vh-100 flex-column" style="width: 90vw; margin-left:12.5vw;">
     <!-- karta1 -->
-    <div class="d-flex">
-      <div class="card" style="width: 20rem; height: 18rem;">
+    <div class="d-flex flex-wrap k" data-aos="fade-up-right">
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
         <img src="./emilly.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Emilly Armstrong</h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
         </div>
       </div>
-      <p class="card-text z-2">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-left: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
     </div>
 
     <!-- karta2 -->
-    <div class="d-flex">
-      <p class="card-text z-2">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-      <div class="card" style="width: 20rem; height: 18rem;">
-        <img src="./mike.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">MIke Shinoda</h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-      </div>
-    </div>
-
-     <!-- karta3 -->
-     <div class="d-flex">
-      <div class="card" style="width: 20rem; height: 18rem;">
+    <div class="d-flex flex-wrap k obraceny" data-aos="fade-up-left">
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-right: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
         <img src="./emilly.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">Emilly Armstrong</h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
         </div>
       </div>
-      <p class="card-text z-2">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
     </div>
 
-     <!-- karta4 -->
-     <div class="d-flex">
-      <p class="card-text z-2">Some quick example text to build on the card title and make up the bulk of the card's
-        content.</p>
-      <div class="card" style="width: 20rem; height: 18rem;">
-        <img src="./mike.jpg" class="card-img-top" alt="...">
+    <!-- karta3 -->
+    <div class="d-flex flex-wrap k" data-aos="fade-up-right">
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
+        <img src="./emilly.webp" class="card-img-top" alt="...">
         <div class="card-body">
-          <h5 class="card-title">MIke Shinoda</h5>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-left: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+
+    <!-- karta4 -->
+    <div class="d-flex flex-wrap k obraceny" data-aos="fade-up-left">
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-right: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
+        <img src="./emilly.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+        <!-- karta5 -->
+    <div class="d-flex flex-wrap k" data-aos="fade-up-right">
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
+        <img src="./emilly.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
+        </div>
+      </div>
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-left: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
+    </div>
+
+    <!-- karta6 -->
+    <div class="d-flex flex-wrap k obraceny" data-aos="fade-up-left">
+      <p class="card-text w-50 z-2 fs-3 text-center text-light" style="padding-right: 15%; padding-top: 5%;">Some quick
+        example text to build on the card title and make up the bulk of the card's content.</p>
+      <div class="card"
+        style="width: 24rem; height: 20rem;background: rgba(0, 0, 0, 0.5); backdrop-filter: blur(10px);">
+        <img src="./emilly.webp" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title text-center text-light fw-bold">Emilly Armstrong</h5>
+          <div class="d-flex justify-content-center mt-4 gap-3">
+            <a href="https://www.instagram.com/yourprofile" class="btn btn-outline-light" target="_blank"
+              style="gap: 0.5rem;">
+              <i class="fab fa-instagram"></i>
+              Instagram
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -120,7 +188,51 @@
 
   </div>
 
+
+  <footer class="bg-dark text-light text-center mt-4">
+  <!-- Grid container -->
+  <div class="container p-4">
+    <!-- Section: Social media -->
+    <section class="mb-4">
+      <!-- Facebook -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-facebook-f"></i></a>
+
+      <!-- Twitter -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-twitter"></i></a>
+
+      <!-- Google -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-google"></i></a>
+
+      <!-- Instagram -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-instagram"></i></a>
+
+      <!-- Linkedin -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-linkedin-in"></i></a>
+
+      <!-- Github -->
+      <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"><i
+          class="fab fa-github"></i></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2020 Copyright
+    <p class="text-reset fw-bold">Patrik Vlček</p>
+  </div>
+  <!-- Copyright -->
+</footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>
